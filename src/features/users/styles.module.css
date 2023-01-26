@@ -1,0 +1,15 @@
+.image {
+  width: 60px;
+  height: 60px;
+  border-radius: 200px;
+  overflow: hidden;
+}
+.image img {
+  object-fit: contain;
+  width: 100%;
+  height: 100;
+  object-position: center;
+}
+.container {
+  margin: 20px;
+}

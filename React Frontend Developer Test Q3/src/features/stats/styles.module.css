@@ -1,0 +1,11 @@
+.stat {
+  margin: 20px;
+}
+
+.stat * {
+  margin: 0;
+}
+.statContainer {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}

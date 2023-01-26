@@ -1,0 +1,32 @@
+.item {
+  position: relative;
+  margin: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.itemHeader {
+  font-size: 22px;
+  margin: 0;
+}
+
+.itemDescription {
+  font-size: 16px;
+}
+.itemButton {
+  line-height: 12px;
+  height: fit-content;
+}
+.itemButton:disabled {
+  cursor: not-allowed;
+  opacity: 50;
+  color: #dddddd;
+}
+.itemPrice {
+  font-style: italic;
+}
+.itemBody {
+  display: flex;
+  gap: 20px;
+}

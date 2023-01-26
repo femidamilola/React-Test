@@ -1,0 +1,7 @@
+.quote {
+  margin: 10px;
+}
+
+.quote * {
+  margin: 0;
+}
